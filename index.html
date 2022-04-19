@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>AutosConcepción Consulta </title>
+
+    <link rel="stylesheet" type="text/css" href="CSS/index_style.css">
+    <link rel="stylesheet" type="text/css" href="CSS/normalize.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@500&family=Hind+Siliguri:wght@300&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
+</head>
+<body>
+   <div class="div-title">
+    <h1 id="title">AutosConcepción</h1>
+   </div> 
+
+   <div class="div-description">
+    <p id="description">Completa el formulario para alojar su consulta</p>
+   </div>
+
+   <form id="survey-form">
+    <label id="name-label">Nombre</label>
+    <input class="input-text" id="name" type="text" placeholder="Ingrese su nombre" required="">
+  
+    <label id="email-label">Email</label>
+    <input class="input-text" id="email" type="email" placeholder="Ingrese su Email" required="">
+
+    <label id="number-label">Edad</label>
+    <input class="input-text" id="number" type="number" min="0" max="100" placeholder="Ingrese su edad">
+
+    <label class="label-dropdown">¿Cuál opción describe mejor su rol actual?</label>
+    <select class="input-text" id="dropdown">
+        <option value="a" selected="true" disabled>Selecciona su rol actual</option>
+        <option value="Estudiante">Estudiante</option>
+        <option value="Trabajador">Trabajador</option>
+        <option value="Investigador">Investigador</option>
+        <option value="Prefiero no decirlo">Prefiero no decirlo</option>
+        <option value="Otro">Otro</option>
+      </select>
+
+      <label class="label-radio">¿Recomendarias AutosConcepción a tus amigos?</label>
+      <p>
+          <input class="input-marcar" type="radio" name="radio-form" value="Definitivamente"> Definitivamente<br>
+          <input class="input-marcar" type="radio" name="radio-form" value="Quizás"> Quizás<br>
+          <input class="input-marcar" type="radio" name="radio-form" value="No estoy seguro"> No estoy seguro<br>
+      </p>
+
+      <label class="label-checkbox">Tipo de vehiculo que posee:</label>
+      <p>
+          <input class="input-marcar" type="checkbox" name="Vehiculo 1" value="Auto"> Auto <br>
+          <input class="input-marcar" type="checkbox" name="Vehiculo 3" value="Camioneta"> Camioneta <br>
+          <input class="input-marcar" type="checkbox" name="Vehiculo 2" value="Otro"> Otro <br>
+      </p>
+
+ 
+      <label class="label-textarea">¿Algún comentario o sugerencia?</label>
+      <textarea class="text-area" cols="30" rows="10" ></textarea>
+
+      <input id="submit" type="submit" value="Enviar">
+     
+   </form>
+  
+</body>
+<script src="JS/BotFreeCodeCamps.js"></script>
+</html>

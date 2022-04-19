@@ -1,0 +1,98 @@
+body{
+    background:
+    linear-gradient(45deg, #92baac 45px, transparent 45px) 64px 64px,
+    linear-gradient(45deg, #92baac 45px, transparent 45px,transparent 91px, #e1ebbd 91px, #e1ebbd 135px, transparent 135px),
+    linear-gradient(-45deg, #92baac 23px, transparent 23px, transparent 68px,#92baac 68px,#92baac 113px,transparent 113px,transparent 158px,#92baac 158px);
+    background-color:#e1ebbd;
+    background-size: 128px 128px;
+}
+
+#title{
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-family: 'Akshar', sans-serif;
+    font-size: 50px;
+}
+#description{
+    display: flex;
+    justify-content: center;
+    color: #000;
+    margin-top: -25px;
+    font-family: 'Mukta', sans-serif;
+    font-size: 22px;
+}
+
+#survey-form{
+    background-color: #363636;
+    width: 800px;
+    margin: 30px auto;
+    border-radius: 6px;
+    padding: 15px;
+}
+
+label{
+display: flex;
+justify-content: left;
+margin-left: 140px;
+color: #F5F5F5;
+font-family: 'Patrick Hand', cursive;
+font-size: 23px;
+margin-bottom: 7px;
+margin-top: 30px;
+}
+
+.input-text{
+    display: flex;
+    margin: auto;
+    width: 500px;
+    height: 35px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+    padding-left: 6px;
+}
+
+.input-text:focus{
+   box-shadow: 0px 0px 5px #74FEF4; 
+   outline: none;
+}
+
+p{
+    color: #F5F5F5;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 24px;
+}
+
+.input-marcar{
+   
+    justify-content: left;
+    margin-left: 140px;
+}
+
+.text-area{
+    resize: none;
+    display: flex;
+    margin: auto;
+    width: 500px;
+    height: 100px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+    padding-left: 6px;
+}
+
+.text-area:focus{
+    box-shadow: 0px 0px 5px #74FEF4; 
+    outline: none;
+ }
+
+ #submit{
+    display: flex;
+    margin: auto;
+    width: 500px;
+    justify-content: center;
+    height: 35px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 24px;
+    margin-top: 40px;
+    background-color: #F3F7CF;
+ }
